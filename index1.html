@@ -3,105 +3,105 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./all.min.css" />
+    <link rel="stylesheet" href="./all.css" />
   </head>
   <body>
-    <section>
-      <div class="row d-flex justify-content-center align-items-center py-5">
-        <div class="col-8 col-lg-5">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-            class="img-fluid"
-            alt=""
-          />
-        </div>
-        <div class="col-8 col-lg-4 offset-lg-1">
-          <form>
-            <!-- sign in with -->
-            <div
-              class="d-flex align-items-center justify-content-center justify-content-lg-start"
+    <div class="row d-flex justify-content-center align-items-center py-5">
+      <div class="col-8 col-lg-5">
+        <img src="./sign-in-computer.png" class="img-fluid" alt="" />
+      </div>
+      <div class="col-8 col-lg-5 offset-lg-1">
+        <form>
+          <!-- sign in with -->
+          <div
+            class="d-flex align-items-center justify-content-center justify-content-lg-start"
+          >
+            <p class="mb-0 me-3 fs-4">Sign in with</p>
+            <button
+              type="button"
+              class="btn btn-primary mx-lg-1 rounded-circle shadow"
             >
-              <p class="fw-normal mb-0 me-3 fs-6 fs-xl-4">Sign in with</p>
-              <button type="button" class="btn btn-primary btn-sm mx-1">
-                <i class="fab fa-facebook-f"></i>
-              </button>
+              <i class="fa-brands fa-facebook-f"></i>
+            </button>
 
-              <button type="button" class="btn btn-primary btn-sm mx-1">
-                <i class="fab fa-twitter"></i>
-              </button>
+            <button
+              type="button"
+              class="btn btn-primary mx-lg-1 rounded-circle shadow"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </button>
 
-              <button type="button" class="btn btn-primary btn-sm mx-1">
-                <i class="fab fa-linkedin-in"></i>
-              </button>
+            <button
+              type="button"
+              class="btn btn-primary mx-lg-1 rounded-circle shadow"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </button>
+          </div>
+          <!-- or -->
+          <div class="row d-flex align-items-center my-4">
+            <div class="col-5 border"></div>
+            <p class="col text-center fw-bold mb-0">Or</p>
+            <div class="col-5 border"></div>
+          </div>
+          <!-- input -->
+          <div class="mb-4">
+            <input
+              type="email"
+              class="form-control form-control-lg"
+              placeholder="Email address"
+            />
+          </div>
+          <div class="mb-4">
+            <input
+              type="password"
+              class="form-control form-control-lg"
+              placeholder="Password"
+            />
+          </div>
+          <!--remember forget div  -->
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <input class="form-check-input" type="checkbox" id="Remember" />
+              <label class="form-check-label" for="Remember">
+                Remember me
+              </label>
             </div>
-            <!-- or -->
-            <div class="row d-flex align-items-center my-4">
-              <div class="col-5 border"></div>
-              <p class="col text-center fw-bold mb-0">Or</p>
-              <div class="col-5 border"></div>
-            </div>
-            <!-- input -->
-            <div class="form-outline mb-4">
-              <input
-                type="email"
-                class="form-control form-control-lg"
-                placeholder="Email address"
-              />
-            </div>
-            <div class="form-outline mb-3">
-              <input
-                type="password"
-                class="form-control form-control-lg"
-                placeholder="Password"
-              />
-            </div>
-            <!--remember forget div  -->
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="form-check mb-0">
-                <input class="form-check-input" type="checkbox" id="Remember" />
-                <label class="form-check-label" for="Remember">
-                  Remember me
-                </label>
-              </div>
-              <a href="#" class="text-secondary text-decoration-none">
-                Forgot password?
-              </a>
-            </div>
-            <!-- button and register -->
-            <div class="text-center text-lg-start mt-4 pt-2">
-              <button type="button" class="btn btn-primary btn-lg px-5 shadow">
-                LOGIN
-              </button>
-              <p class="fw-bold mt-2">
-                Don't have an account?
-                <a href="#!" class="link-danger text-decoration-none"
-                  >Register</a
-                >
-              </p>
-            </div>
-          </form>
-        </div>
+            <a href="#" class="text-secondary text-decoration-none">
+              Forgot password?
+            </a>
+          </div>
+          <!-- button and register -->
+          <div class="text-center text-lg-start mt-4 pt-2">
+            <button type="button" class="btn btn-primary btn-lg px-5 shadow">
+              LOGIN
+            </button>
+            <p class="fw-bold mt-2">
+              Don't have an account?
+              <a href="#!" class="link-danger text-decoration-none">Register</a>
+            </p>
+          </div>
+        </form>
       </div>
-      <!-- footer -->
-      <div class="d-flex justify-content-between p-4 bg-primary">
-        <div class="text-white">Copyright © 2020. All rights reserved.</div>
-        <div>
-          <i class="fab fa-facebook-f text-white mx-3"></i>
-          <i class="fab fa-twitter text-white mx-3"></i>
-          <i class="fab fa-google text-white mx-3"></i>
-          <i class="fab fa-linkedin-in text-white mx-3"></i>
-        </div>
-        <!-- Right -->
+    </div>
+    <!-- footer -->
+    <div class="d-flex justify-content-between p-4 bg-primary">
+      <p class="text-white mb-0">Copyright © 2020. All rights reserved.</p>
+      <div>
+        <i class="text-white fa-brands fa-facebook-f me-lg-5"></i>
+        <i class="text-white fa-brands fa-twitter me-lg-5"></i>
+        <i class="text-white fa-brands fa-google me-lg-5"></i>
+        <i class="text-white fa-brands fa-linkedin-in me-lg-5"></i>
       </div>
-    </section>
-
+      <!-- Right -->
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
